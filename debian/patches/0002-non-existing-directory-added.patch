@@ -1,0 +1,20 @@
+From: Ibrahim ARI <ibrahim.ari@pardus.org.tr>
+Date: Mon, 29 Jul 2019 18:42:55 +0300
+Subject: non existing directory added
+
+---
+ src/zabbix_java/Makefile.am | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/zabbix_java/Makefile.am b/src/zabbix_java/Makefile.am
+index b497165..a265966 100644
+--- a/src/zabbix_java/Makefile.am
++++ b/src/zabbix_java/Makefile.am
+@@ -28,6 +28,7 @@ test: class
+ class:
+ 	$(MKDIR_P) class/src
+ 	$(MKDIR_P) class/tests
++        $(MKDIR_P) bin
+ 
+ install: all
+ 	$(MKDIR_P) "$(ZJG_DEST)/bin"
