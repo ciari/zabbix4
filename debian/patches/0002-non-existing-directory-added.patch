@@ -14,7 +14,7 @@ index b497165..a265966 100644
  class:
  	$(MKDIR_P) class/src
  	$(MKDIR_P) class/tests
-+        $(MKDIR_P) bin
++	 $(MKDIR_P) bin
  
  install: all
  	$(MKDIR_P) "$(ZJG_DEST)/bin"
