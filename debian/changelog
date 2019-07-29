@@ -2,8 +2,7 @@ zabbix (1:4.0.11-1+stretci) stable; urgency=medium
 
   * Patches added
 
-
- -- Ibrahim ARI <ibrahim.ari@pardus.org.tr>  Mon, 29 Jul 2019 18:43:53 +0300
+ -- Ibrahim ARI <ibrahim.ari@pardus.org.tr>  Mon, 29 Jul 2019 19:15:22 +0300
 
 zabbix (1:4.0.11-1+stretch) stable; urgency=low
 
